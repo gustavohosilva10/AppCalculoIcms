@@ -1,13 +1,13 @@
 import React from 'react';
 import { StyleSheet,  View } from 'react-native';
 import Title from './src/components/Title';
-import Main from './src/components/Main';
-1
+import Form from './src/components/Form';
+
 export default function App() {
   return (
     <View style={styles.container}>
-     <Tittle/>
-     <Main/>
+     <Title/>
+     <Form />
     </View>
   );
 }
@@ -19,3 +19,4 @@ const styles = StyleSheet.create({
     paddingTop:80,
   },
 });
+/*  */

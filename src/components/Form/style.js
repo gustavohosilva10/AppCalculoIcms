@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
         borderTopLeftRadius:30,
         borderTopRightRadius:30,
     },
-    from:{
+    form:{
         width:"100%",
         height:"auto",
         marginTop:30,
@@ -46,3 +46,5 @@ const styles = StyleSheet.create({
         color:"#fffff",
     }
 });
+
+export default styles
